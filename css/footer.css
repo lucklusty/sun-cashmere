@@ -1,0 +1,36 @@
+/* FOOTER: general settings */
+footer {
+	background-color: #0f0f0f;
+	position: absolute; 
+	bottom: 0; 
+	width: 100%; 
+	height: 170px;
+	clear:both;
+}
+
+.footer_element_container {
+	width: 1259px;
+	margin: 0 auto;
+	color: #ffffff;
+	float: none;
+	clear: both;
+	padding: 10px 0;
+}
+
+.footer_element_column {
+	font-size: 1.6rem;
+}
+
+.footer_element_column li {
+	font-size: 1rem;
+	list-style: none;
+	padding-top: 5px;
+}
+
+/*--------------- Copyright ---------------*/
+
+.footer_element.footer_copyright {
+	color: #818181;
+	font-size: 1rem;
+	padding-bottom: 15px;
+}

@@ -1,0 +1,76 @@
+/* HEADER: general settings */
+header {
+	position: fixed;	
+	width: 100%;
+	height: 120px;
+	z-index: 1;
+}
+
+.header_element_wrapper {
+	width: 100%;
+}
+
+.header_element {
+	margin: 0 auto;
+}
+
+/*--------------- header logo ---------------*/
+.header_element_wrapper.logo {
+	height: 70px;
+	font-size: 3.6rem;
+	font-weight: bold;	
+	background-color: #ffffff;
+	color: #0f0f0f;
+}
+
+/*--------------- header menu ---------------*/
+.header_element_wrapper.navigation  {	
+	background-color: #0f0f0f;
+	color: #ffffff;
+	height: 50px;
+	line-height: 50px;
+}
+
+.header_element_wrapper.navigation .header_element {
+	/*height: 100%;*/
+}
+
+.global_header_navigation {
+	width: 1259px;
+	font-size: 2.3rem;
+	font-family: 'ostrich-sans-rounded', Fallback, sans-serif;
+	/*font-weight: bold;*/
+	
+
+}
+
+.global_header_navigation ul,
+.global_header_navigation .global_header_search {
+	display: inline-flex;
+	list-style: none;
+}
+
+.global_header_navigation ul {
+	padding-left: 0;
+}
+
+.global_header_navigation ul li,
+.global_header_navigation .global_header_search input {
+	margin-right: 15px;
+}
+
+.global_header_navigation ul li:hover {
+	background-color: #ffffff;
+	color: #0f0f0f;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.global_header_navigation .global_header_search {
+	margin-left: -30px;
+	padding: 8px; /* for vertical centering */
+}
+
+.global_header_navigation .glyphicon-search {
+	font-size: 2rem;
+}
