@@ -10,7 +10,19 @@ body {
 	height: 100%
 }
 
-.page_container {
+.heavy {
+	font-weight: bold;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.page_container {  /* page settings for footer */
 	position: relative;	
 	min-height: 100%;
 	height: auto !important;
@@ -20,10 +32,10 @@ body {
 .main_content_container {
 	width: 1259px;	
 	margin: 0 auto;
-	padding: 120px 0 170px;
-	/*height: 100%;*/
+	padding: 150px 0 170px;
 }
 
+/*---------------- special settings for main content ---------------- */
 .main_content_container .company_contact_info_column {
 	font-size: 1.6rem;
 }
@@ -32,16 +44,21 @@ body {
 	font-size: 1rem;
 	color: #b4aeae;
 	padding-top: 20px;
-	text-transform: uppercase;
 }
 
 .main_content_container section {
 	font-size: 1rem;
-	padding-bottom: 30px;
+	/*padding-bottom: 30px;*/
 	clear: both;
-	/*float: none;*/
 }
 
+.main_content_container section .google_map_frame {
+	padding-top: 30px;
+}
+
+.main_content_container .catalog_cover img {
+	height: 600px;
+}
 
 /* general font definition */
 
