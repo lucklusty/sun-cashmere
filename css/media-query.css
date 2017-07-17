@@ -36,11 +36,6 @@
 	footer .footer_element {
 		width: 768px ;
 	}
-
-	/* temporary special settings */
-	.catalog_cover {
-		margin: 20px 0 10px;
-	}
 }
 
 @media screen and (min-width: 640px) and (max-width: 767px) {

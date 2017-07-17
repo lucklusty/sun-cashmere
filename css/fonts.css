@@ -1,0 +1,70 @@
+/*---------------- custom defined fonts ---------------- */
+
+@font-face {
+	font-family: 'ostrich-sans-black';
+	src: url('../fonts/ostrich-sans/ostrich-sans-black.ttf') format('truetype'),
+		 url('../fonts/ostrich-sans/ostrich-sans-black.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'ostrich-sans-bold';
+	src: url('../fonts/ostrich-sans/ostrich-sans-bold.ttf') format('truetype'),
+		 url('../fonts/ostrich-sans/ostrich-sans-bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'ostrich-sans-dashed';
+	src: url('../fonts/ostrich-sans/ostrich-sans-dashed.ttf') format('truetype'),
+		 url('../fonts/ostrich-sans/ostrich-sans-dashed.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'ostrich-sans-inline-italic';
+	src: url('../fonts/ostrich-sans/ostrich-sans-inline-italic.ttf') format('truetype'),
+		 url('../fonts/ostrich-sans/ostrich-sans-inline-italic.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'ostrich-sans-inline-regular';
+	src: url('../fonts/ostrich-sans/ostrich-sans-inline-regular.ttf') format('truetype'),
+		 url('../fonts/ostrich-sans/ostrich-sans-inline-regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'ostrich-sans-light';
+	src: url('../fonts/ostrich-sans/ostrich-sans-light.ttf') format('truetype'),
+		 url('../fonts/ostrich-sans/ostrich-sans-light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'ostrich-sans-regular';
+	src: url('../fonts/ostrich-sans/ostrich-sans-regular.ttf') format('truetype'),
+		 url('../fonts/ostrich-sans/ostrich-sans-regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'ostrich-sans-rounded';
+	src: url('../fonts/ostrich-sans/ostrich-sans-rounded.ttf') format('truetype'),
+		 url('../fonts/ostrich-sans/ostrich-sans-rounded.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'ostrich-sans-heavy';
+	src: url('../fonts/ostrich-sans/OstrichSans-Heavy.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'ostrich-sans-medium';
+	src: url('../fonts/ostrich-sans/OstrichSans-Medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'ostrich-sans-dashed-medium';
+	src: url('../fonts/ostrich-sans/OstrichSansDashed-Medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'ostrich-sans-rounded-medium';
+	src: url('../fonts/ostrich-sans/OstrichSansRounded-Medium.otf') format('opentype');
+}
+

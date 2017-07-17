@@ -5,11 +5,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Sun-Cashmere</title>
 	<link rel="shortcut icon" type="image/x-icon" href="img/tab-icon2.jpg">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/general.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">	
 	<link rel="stylesheet" href="css/media-query.css">
+	<link rel="stylesheet" href="css/general.css">
+	<link rel="stylesheet" href="css/fonts.css">	
 	<link rel="stylesheet" href="css/header.css">
 	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/main-content.css">
 	<script type="text/javascript" src="js/angular-1.6.4.min.js"></script>
 	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 </head>

@@ -1,3 +1,4 @@
+/*---------------- global general settings ---------------- */
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -40,101 +41,5 @@ body {
 	/*margin: 0 auto;*/
 }
 
-/*---------------- special settings for main content ---------------- */
 
-.main_content_container .list_item {
-	font-size: 1.6rem;
-}
-
-.main_content_container .list_item.title {
-	font-size: 1rem;
-	color: #b4aeae;
-	padding-top: 20px;
-}
-
-.main_content_container .contact_info section {
-	font-size: 1rem;
-	/*padding-bottom: 30px;*/
-	clear: both;
-}
-
-.main_content_container section .google_map_frame {
-	padding-top: 30px;
-}
-
-.main_content_container .catalog_cover img {
-	/*height: 623px;*/
-	max-height: 100%;
-	max-width: 100%;
-}
-
-/* general font definition */
-
-@font-face {
-	font-family: 'ostrich-sans-black';
-	src: url('../fonts/ostrich-sans/ostrich-sans-black.ttf') format('truetype'),
-		 url('../fonts/ostrich-sans/ostrich-sans-black.woff') format('woff');
-}
-
-@font-face {
-	font-family: 'ostrich-sans-bold';
-	src: url('../fonts/ostrich-sans/ostrich-sans-bold.ttf') format('truetype'),
-		 url('../fonts/ostrich-sans/ostrich-sans-bold.woff') format('woff');
-}
-
-@font-face {
-	font-family: 'ostrich-sans-dashed';
-	src: url('../fonts/ostrich-sans/ostrich-sans-dashed.ttf') format('truetype'),
-		 url('../fonts/ostrich-sans/ostrich-sans-dashed.woff') format('woff');
-}
-
-@font-face {
-	font-family: 'ostrich-sans-inline-italic';
-	src: url('../fonts/ostrich-sans/ostrich-sans-inline-italic.ttf') format('truetype'),
-		 url('../fonts/ostrich-sans/ostrich-sans-inline-italic.woff') format('woff');
-}
-
-@font-face {
-	font-family: 'ostrich-sans-inline-regular';
-	src: url('../fonts/ostrich-sans/ostrich-sans-inline-regular.ttf') format('truetype'),
-		 url('../fonts/ostrich-sans/ostrich-sans-inline-regular.woff') format('woff');
-}
-
-@font-face {
-	font-family: 'ostrich-sans-light';
-	src: url('../fonts/ostrich-sans/ostrich-sans-light.ttf') format('truetype'),
-		 url('../fonts/ostrich-sans/ostrich-sans-light.woff') format('woff');
-}
-
-@font-face {
-	font-family: 'ostrich-sans-regular';
-	src: url('../fonts/ostrich-sans/ostrich-sans-regular.ttf') format('truetype'),
-		 url('../fonts/ostrich-sans/ostrich-sans-regular.woff') format('woff');
-}
-
-@font-face {
-	font-family: 'ostrich-sans-rounded';
-	src: url('../fonts/ostrich-sans/ostrich-sans-rounded.ttf') format('truetype'),
-		 url('../fonts/ostrich-sans/ostrich-sans-rounded.woff') format('woff');
-}
-
-@font-face {
-	font-family: 'ostrich-sans-heavy';
-	src: url('../fonts/ostrich-sans/OstrichSans-Heavy.otf') format('opentype');
-}
-
-@font-face {
-	font-family: 'ostrich-sans-medium';
-	src: url('../fonts/ostrich-sans/OstrichSans-Medium.otf') format('opentype');
-}
-
-@font-face {
-	font-family: 'ostrich-sans-dashed-medium';
-	src: url('../fonts/ostrich-sans/OstrichSansDashed-Medium.otf') format('opentype');
-}
-
-@font-face {
-	font-family: 'ostrich-sans-rounded-medium';
-	src: url('../fonts/ostrich-sans/OstrichSansRounded-Medium.otf') format('opentype');
-}
 
