@@ -22,7 +22,7 @@ body {
 	clear: both;
 }
 
-.page_container {  /* page settings for footer */
+.page_container {  /* page settings for footer to stay at bottom*/
 	position: relative;	
 	min-height: 100%;
 	height: auto !important;
