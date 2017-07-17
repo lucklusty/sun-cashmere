@@ -8,13 +8,15 @@ footer {
 	clear:both;
 }
 
-.footer_element_container {
-	width: 1259px;
-	margin: 0 auto;
+.footer_element_container {	
 	color: #ffffff;
 	float: none;
 	clear: both;
 	padding: 10px 0;
+}
+
+.footer_element {
+	margin: 0 auto;
 }
 
 .footer_element_column {

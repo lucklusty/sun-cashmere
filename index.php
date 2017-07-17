@@ -5,7 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Sun-Cashmere</title>
 	<link rel="shortcut icon" type="image/x-icon" href="img/tab-icon2.jpg">
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/general.css">
 	<link rel="stylesheet" href="css/media-query.css">
 	<link rel="stylesheet" href="css/header.css">
@@ -16,23 +16,23 @@
 <body>
 	<div class="page_container">
 		<?php require_once('templates/header.php'); ?>
-		<div class="main_content_container">
+		<div class="main_content_container row">
 			<h3 class="col-lg-offset-3">Diese Seite befindet sich derzeit im Aufbau.</h3>
-			<div class="col-lg-5 col-lg-offset-1">
-				<section class="company_contact_info ">					
-					<h3 class="company_contact_info_column headline col-md-12 heavy ">KONTAKT: </h3>
-					<h3 class="company_contact_info_column headline col-md-12">SUN Kaschmir-Textilien GmbH</h3>
-					<div class="company_contact_info_column uppercase title col-md-12">Anschrift:</div>
-					<div class="company_contact_info_column col-md-12">Carl-Legien-Stra&szlig;e 15,</div>
-					<div class="company_contact_info_column col-md-12">63073 Offenbach</div>
-					<div class="company_contact_info_column uppercase title col-md-12">Tel:</div>
-					<div class="company_contact_info_column col-md-12">069 667 788 016</div>
-					<div class="company_contact_info_column uppercase title col-md-12">Email:</div>
-					<div class="company_contact_info_column col-md-12">info@sun-kaschmir.de</div>
-					<div class="company_contact_info_column uppercase title col-md-12">Amtsgericht:</div>
-					<div class="company_contact_info_column col-md-12">Offenbach am Main, HRB 49574</div>
-					<div class="company_contact_info_column uppercase title col-md-12">UST-ID:</div>
-					<div class="company_contact_info_column col-md-12">DE 303 324 557</div>
+			<div class="content_box contact_info col-xs-12 col-sm-5 col-md-5 col-lg-5 col-lg-offset-1 ">
+				<section class="contact_info_wrapper ">					
+					<h3 class="list_item headline col-md-12 heavy ">KONTAKT: </h3>
+					<h3 class="list_item headline col-md-12">SUN Kaschmir-Textilien GmbH</h3>
+					<div class="list_item uppercase title col-md-12">Anschrift:</div>
+					<div class="list_item col-md-12">Carl-Legien-Stra&szlig;e 15,</div>
+					<div class="list_item col-md-12">63073 Offenbach</div>
+					<div class="list_item uppercase title col-md-12">Tel:</div>
+					<div class="list_item col-md-12">069 667 788 016</div>
+					<div class="list_item uppercase title col-md-12">Email:</div>
+					<div class="list_item col-md-12">info@sun-cashmere.com</div>
+					<div class="list_item uppercase title col-md-12">Amtsgericht:</div>
+					<div class="list_item col-md-12">Offenbach am Main, HRB 49574</div>
+					<div class="list_item uppercase title col-md-12">UST-ID:</div>
+					<div class="list_item col-md-12">DE 303 324 557</div>
 				</section>
 				<section class="google_map_frame_container ">
 					<div class="google_map_frame col-md-12">
@@ -41,7 +41,7 @@
 				</section>
 				<section><div>&nbsp;</div></section>
 			</div>
-			<div class=" catalog_cover col-lg-6">
+			<div class="content_box catalog_cover col-xs-12 col-sm-6 col-md-6 col-lg-6">
 				<a href="upload/Katalog2017.pdf" target="_blank">
 					<img src="img/catalog.jpg" />
 				</a>

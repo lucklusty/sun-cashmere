@@ -10,7 +10,7 @@ header {
 	width: 100%;
 }
 
-.header_element {
+.header_element {	
 	margin: 0 auto;
 }
 
@@ -36,8 +36,8 @@ header {
 }
 
 .global_header_navigation {
-	width: 1259px;
-	font-size: 2.3rem;
+	/*width: 1259px;*/
+	font-size: 2.3rem; /* used 2.3rem */
 	font-family: 'ostrich-sans-rounded', Fallback, sans-serif;
 	/*font-weight: bold;*/
 	
