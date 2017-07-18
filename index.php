@@ -44,7 +44,7 @@
 				<section><div>&nbsp;</div></section>
 			</div>
 			<div class="content_box catalog_cover col-xs-12 col-sm-6 col-md-6 col-lg-6">
-				<a href="upload/Katalog2017.pdf" target="_blank">
+				<a href="upload/Katalog2017.pdf" download>
 					<img src="img/catalog.jpg" />
 				</a>
 			</div>
